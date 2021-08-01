@@ -1,1 +1,16 @@
-
+input {
+    background-color: lightgray;
+    border: 1px solid lightgray;
+}
+input:focus {
+        outline:none;
+}
+img {
+    vertical-align: bottom;
+    padding-left: 6px;
+}
+.menu, li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+}
