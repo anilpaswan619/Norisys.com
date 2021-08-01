@@ -1,16 +1,104 @@
+html {
+    font-family:Georgia, 'Times New Roman', Times, serif;    
+}
+.main-container {
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+    position: absolute;
+	top: 0;
+	left: 0;
+}
+.menu-head {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0px;
+    background-color: white;
+}
 input {
     background-color: lightgray;
-    border: 1px solid lightgray;
+    border: 1px solid lightgray;  
 }
 input:focus {
-        outline:none;
+        border-radius: 45px;
 }
 img {
-    vertical-align: bottom;
     padding-left: 6px;
+    margin-bottom: -5px;   
 }
-.menu, li {
+.menu-head img:hover{
+background-color: rgb(235, 235, 240);
+}
+.menu{
+    height: 90px;
+}
+.menu li {
     display: inline-block;
     list-style-type: none;
-    padding: 15px;
+    padding: 4px;
+    font-size: 16px;  
 }
+ul li ul {
+    visibility: hidden;
+    position: absolute;
+    display: none;    
+}
+ul li:hover > ul, 
+ul li ul a:hover {
+  visibility: visible;
+  display:block; 
+}
+.sub-menu {
+    position: absolute;
+} 
+.sub-menu li {
+    display: block;
+    border-top: 1px solid darkorange;
+    border-bottom: 1px solid darkorange;
+}
+ul {
+    margin-left: -40px;  
+}
+.menu a {
+    text-decoration:none;
+    color:dimgray;
+}
+#logo{
+    vertical-align:sub;
+    margin-left: 17%;
+}
+.second-header a{
+    text-decoration: none;
+}
+.second-header table{
+    margin-top: 120px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 30px;
+    background-color:whitesmoke;
+}
+.second-header p{
+    color: dimgray;
+}
+.second-header a{
+    color:darkorange;
+}
+.second-header h4{
+    color: rgba(0, 0, 0, 0.767);
+}
+.sub-para {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: -14px;
+}
+p{
+    font-size: 15px;
+}
+
+
+
+
